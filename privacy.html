@@ -28,19 +28,19 @@
 </style>
 </head>
 <body>
-
+ 
 <header>
   <h1>🏥 Diario della Salute</h1>
   <p>Informativa sulla Privacy</p>
 </header>
-
+ 
 <div class="container">
-
+ 
   <div class="intro">
     <div class="highlight">✅ I tuoi dati non lasciano mai il tuo dispositivo.</div>
     <p>Diario della Salute è progettata con la privacy al primo posto. Non raccogliamo, non trasmettiamo e non condividiamo alcun dato personale o sanitario. Tutto rimane sul tuo iPhone.</p>
   </div>
-
+ 
   <div class="card">
     <h2>📋 Informazioni generali</h2>
     <div class="divider"></div>
@@ -48,10 +48,10 @@
     <br>
     <p><strong>Titolare:</strong> Michele Luciano (ikim)</p>
     <p><strong>Contatto:</strong> micheleluciano9.ml@gmail.com</p>
-    <p><strong>Ultimo aggiornamento:</strong> 6 agosto 2026</p>
-    <p><strong>Versione dell'app:</strong> 1.0.4</p>
+    <p><strong>Ultimo aggiornamento:</strong> 30 agosto 2026</p>
+    <p><strong>Versione dell'app:</strong> 1.0.6</p>
   </div>
-
+ 
   <div class="card">
     <h2>🔒 Dati trattati</h2>
     <div class="divider"></div>
@@ -65,41 +65,66 @@
       <li>percorsi del diario clinico e relativi aggiornamenti</li>
       <li>dati della cartella clinica (gruppo sanguigno, altezza, contatti di emergenza)</li>
       <li>file allegati (immagini e PDF)</li>
+      <li>dati importati dall'app Salute, se scegli di importarli (elenco completo più sotto)</li>
     </ul>
     <br>
     <p>…sono archiviate <strong>esclusivamente sul dispositivo</strong> nella memoria locale dell'app (IndexedDB). Nessuna di queste informazioni viene trasmessa a server, servizi cloud o terze parti, né a noi sviluppatori: non abbiamo alcun modo di accedervi.</p>
   </div>
-
+ 
   <div class="card">
     <h2>📄 Lettura automatica dei referti</h2>
     <div class="divider"></div>
     <p>La funzione che riconosce i valori da una foto o da un PDF elabora il documento <strong>interamente sul dispositivo</strong>, tramite componenti di riconoscimento testo inclusi nell'app. Il referto non viene caricato su alcun servizio esterno e non lascia il telefono.</p>
   </div>
-
+ 
+  <div class="card">
+    <h2>❤️ Importazione dall'app Salute</h2>
+    <div class="divider"></div>
+    <p>Se lo avvii tu, l'App può copiare nel tuo diario dati che hai già registrato nell'app Salute di iPhone. La lettura è <strong>a senso unico</strong>: l'App non scrive e non modifica nulla dentro Salute.</p>
+    <br>
+    <p>I dati che l'App può leggere sono soltanto questi otto:</p>
+    <ul>
+      <li>peso</li>
+      <li>pressione sanguigna (massima e minima)</li>
+      <li>frequenza cardiaca</li>
+      <li>glicemia</li>
+      <li>saturazione dell'ossigeno</li>
+      <li>temperatura corporea</li>
+      <li>massa grassa</li>
+      <li>allenamenti (tipo, durata, calorie e distanza)</li>
+    </ul>
+    <br>
+    <p>Nessun altro tipo di dato sanitario viene richiesto o letto. Il permesso lo concedi tu dalle impostazioni di iOS e puoi revocarlo in qualsiasi momento da <em>Impostazioni → Privacy e sicurezza → Salute → Diario della Salute</em>.</p>
+    <br>
+    <p>I dati importati seguono la stessa regola di tutti gli altri: restano nella memoria del dispositivo, non vengono trasmessi a nessun server, non li vediamo noi e non vengono condivisi con terze parti. Non vengono usati per pubblicità, marketing o profilazione, e non finiscono su iCloud.</p>
+    <br>
+    <p>L'importazione è facoltativa: se non concedi il permesso, tutto il resto dell'App continua a funzionare come prima.</p>
+  </div>
+ 
   <div class="card">
     <h2>🔔 Notifiche e promemoria</h2>
     <div class="divider"></div>
     <p>I promemoria delle visite e delle terapie sono <strong>notifiche locali</strong>, programmate dal sistema operativo sul dispositivo stesso. Nessun contenuto delle notifiche viene inviato o elaborato online. Puoi disattivarle in qualsiasi momento dalle impostazioni di iOS.</p>
   </div>
-
+ 
   <div class="card">
     <h2>💾 Backup ed esportazioni</h2>
     <div class="divider"></div>
     <p>Le funzioni di backup, esportazione CSV e referto PDF generano i file <strong>sul dispositivo</strong> e li mettono a disposizione tramite il pannello di condivisione di iOS. Sei tu a decidere dove salvarli o a chi inviarli: da quel momento la loro custodia dipende dal servizio che hai scelto (ad esempio iCloud Drive, email o app di messaggistica).</p>
   </div>
-
+ 
   <div class="card">
     <h2>💳 Acquisti in-app</h2>
     <div class="divider"></div>
     <p>L'App può offrire uno sblocco a pagamento di alcune funzioni. Il pagamento è <strong>gestito interamente da Apple</strong> tramite il tuo ID Apple: non riceviamo né trattiamo i dati della tua carta o del tuo metodo di pagamento. L'App comunica con i server Apple solo per verificare l'avvenuto acquisto e per ripristinarlo su altri dispositivi; in questo scambio <strong>non sono coinvolti dati sanitari</strong>. Il trattamento operato da Apple è regolato dalla informativa privacy di Apple.</p>
   </div>
-
+ 
   <div class="card">
     <h2>👤 Servizi di terze parti</h2>
     <div class="divider"></div>
     <p>L'App <strong>non integra</strong> strumenti di analisi, tracciamento o pubblicità (nessun Google Analytics, Firebase, SDK pubblicitari o simili). Non vengono utilizzati cookie né tecnologie di profilazione. L'unica comunicazione di rete possibile è quella con i server Apple per gli acquisti, descritta sopra.</p>
   </div>
-
+ 
   <div class="card">
     <h2>🛡️ Sicurezza</h2>
     <div class="divider"></div>
@@ -110,7 +135,7 @@
       <li>creare periodicamente un backup dei dati dall'App e conservarlo in un luogo sicuro</li>
     </ul>
   </div>
-
+ 
   <div class="card">
     <h2>⚖️ I tuoi diritti</h2>
     <div class="divider"></div>
@@ -123,35 +148,35 @@
     <br>
     <p>Non essendoci trattamento da parte nostra, non è nominato un responsabile della protezione dei dati. Per qualsiasi chiarimento puoi comunque scriverci.</p>
   </div>
-
+ 
   <div class="card">
     <h2>🩺 Natura dell'App</h2>
     <div class="divider"></div>
     <p>L'App è uno strumento di archiviazione personale. <strong>Non è un dispositivo medico</strong> e non fornisce diagnosi, terapie o consigli sanitari. Gli intervalli di riferimento mostrati accanto ai valori sono indicativi e possono variare tra laboratori: fanno fede il referto originale e il parere del medico.</p>
   </div>
-
+ 
   <div class="card">
     <h2>👶 Minori</h2>
     <div class="divider"></div>
     <p>L'App non è destinata a bambini di età inferiore ai 13 anni e non raccoglie consapevolmente dati di minori. Se sei un genitore o tutore e hai dubbi in proposito, puoi contattarci.</p>
   </div>
-
+ 
   <div class="card">
     <h2>🔄 Modifiche</h2>
     <div class="divider"></div>
     <p>Questa informativa può essere aggiornata a fronte di nuove funzionalità. La data dell'ultimo aggiornamento è indicata in cima alla pagina; le modifiche rilevanti verranno segnalate nelle note di rilascio dell'App.</p>
   </div>
-
+ 
   <div class="contact">
     <p>Per domande su questa informativa scrivi a<br>
     <a href="mailto:micheleluciano9.ml@gmail.com?subject=Privacy%20Diario%20della%20Salute">micheleluciano9.ml@gmail.com</a></p>
   </div>
-
+ 
 </div>
-
+ 
 <footer>
   <p>© 2026 ikim · <a href="index.html">Supporto</a></p>
 </footer>
-
+ 
 </body>
 </html>
