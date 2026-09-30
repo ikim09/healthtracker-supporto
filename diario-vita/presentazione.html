@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LifeHub — il diario che si scrive parlando</title>
+<meta name="description" content="LifeHub per iPhone e iPad: detta o scrivi una frase e la nota finisce da sola nella categoria giusta. Spese, allenamenti, lavoro, obiettivi. Nessun account, i dati restano sul telefono.">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#000;color:#fff;line-height:1.6}
+  a{color:#0A84FF}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header{padding:64px 0 40px;text-align:center}
+  header img{width:128px;height:128px;border-radius:28px;box-shadow:0 8px 40px rgba(168,245,207,.18)}
+  h1{font-size:40px;font-weight:800;margin-top:22px;letter-spacing:-.5px}
+  .sotto{font-size:19px;color:#8E8E93;margin-top:8px}
+  .azioni{margin-top:26px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .bottone{display:inline-block;background:#0A84FF;color:#fff;text-decoration:none;font-weight:700;padding:13px 24px;border-radius:14px}
+  .bottone.secondario{background:#1C1C1E;color:#fff}
+  .nota{font-size:13px;color:#8E8E93;margin-top:10px}
+  .schermate{display:flex;gap:16px;overflow-x:auto;padding:10px 0 30px;scroll-snap-type:x mandatory}
+  .schermate img{width:214px;flex:0 0 auto;border-radius:22px;border:1px solid #2C2C2E;scroll-snap-align:center}
+  section{padding:28px 0}
+  h2{font-size:24px;font-weight:800;margin-bottom:14px}
+  .griglia{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+  .scheda{background:#1C1C1E;border-radius:16px;padding:20px}
+  .scheda h3{font-size:17px;margin-bottom:6px}
+  .scheda p,.scheda li{font-size:15px;color:#C7C7CC}
+  .scheda ul{padding-left:18px}
+  .privacy{background:linear-gradient(135deg,#0f2a1f,#1C1C1E);border:1px solid #1f4a36}
+  .inglese{border-top:1px solid #2C2C2E;margin-top:20px}
+  footer{text-align:center;padding:40px 0 60px;color:#8E8E93;font-size:13px}
+  footer a{color:#8E8E93}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img src="img/icona.png" alt="Icona di LifeHub">
+  <h1>LifeHub</h1>
+  <p class="sotto">Detta le note, lei le ordina.</p>
+  <div class="azioni">
+    <a class="bottone" href="https://apps.apple.com/app/id6816121925">Scaricala dall'App Store</a>
+    <a class="bottone secondario" href="index.html">Assistenza</a>
+  </div>
+  <p class="nota">Per iPhone e iPad · 3,99 € · italiano e inglese</p>
+</header>
+
+<div class="schermate" aria-label="Schermate dell'app">
+  <img src="img/1-chat.jpg" alt="La chat: ogni frase finisce nella sua categoria">
+  <img src="img/2-finanze.jpg" alt="Finanze: entrate, uscite e grafico per mese">
+  <img src="img/3-ricerca.jpg" alt="Ricerca: quanto hai speso in benzina su tutti i mesi">
+  <img src="img/4-cronometri.jpg" alt="Più cronometri con un nome, anche ad app chiusa">
+</div>
+
+<section>
+  <h2>Un diario che si riempie parlando</h2>
+  <div class="griglia">
+    <div class="scheda">
+      <h3>Una chat al posto dei moduli</h3>
+      <p>«Ho speso 23 euro di benzina» va in Finanze, «corsa di 40 minuti al parco» va in Allenamenti, «consegnare il preventivo entro venerdì» va in Lavoro. Importi, durate, distanze, date e scadenze vengono letti da soli. Quando l'app non è sicura, te lo chiede.</p>
+    </div>
+    <div class="scheda">
+      <h3>Dove se ne vanno i soldi</h3>
+      <ul>
+        <li>entrate, uscite e saldo del mese</li>
+        <li>spese per categoria e sottocategoria</li>
+        <li>grafico di 6 o 12 mesi e ricerca su tutti i mesi</li>
+        <li>foto e PDF di scontrini e fatture</li>
+      </ul>
+    </div>
+    <div class="scheda">
+      <h3>Cronometri</h3>
+      <p>Quanti ne vuoi, ognuno col suo nome. Continuano a contare anche con l'app chiusa, e quando hai finito la durata va nella scheda giusta.</p>
+    </div>
+    <div class="scheda">
+      <h3>Sette categorie</h3>
+      <p>Vita, Finanze, Note, Allenamenti, Obiettivi, Lavoro, Salute. Ognuna con il suo elenco e le sue schede.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="scheda privacy">
+    <h3>I tuoi dati restano sul telefono</h3>
+    <p>Nessun account, nessuna registrazione, nessun server. Note, conti e allegati sono salvati solo sul dispositivo e l'app non li invia a nessuno. Per dettare usa la tastiera di iOS: l'app non registra e non riceve audio. <a href="privacy.html">Informativa sulla privacy</a></p>
+  </div>
+</section>
+
+<section class="inglese" lang="en">
+  <h2>In English</h2>
+  <div class="scheda">
+    <p>LifeHub (LifeHub Journal on the App Store in English) is a journal you fill in by talking. "Spent 23 euros on fuel" goes to Money, "40-minute run in the park" goes to Training, "send the quote to the client by Friday" goes to Work. It tracks income and spending in euro, keeps as many named timers as you like, and stores everything only on your device: no account, no server.</p>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <p>© 2026 ikim · <a href="index.html">Assistenza</a> · <a href="privacy.html">Privacy</a></p>
+</footer>
+
+</body>
+</html>
