@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diario della Salute: la tua cartella clinica sull’iPhone</title>
+<meta name="description" content="Visite, analisi del sangue, farmaci, vaccini e ricette in un’app per iPhone e iPad. Fotografi il referto e i valori si scrivono da soli. Nessun account, nessun server: i dati restano sul telefono.">
+<meta name="apple-itunes-app" content="app-id=6793167337">
+<link rel="canonical" href="https://ikim09.github.io/healthtracker-supporto/app.html">
+<link rel="alternate" hreflang="it" href="https://ikim09.github.io/healthtracker-supporto/app.html">
+<link rel="alternate" hreflang="en" href="https://ikim09.github.io/healthtracker-supporto/app-en.html">
+<link rel="icon" href="img/icona.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Diario della Salute: la tua cartella clinica sull’iPhone">
+<meta property="og:description" content="Visite, analisi del sangue, farmaci, vaccini e ricette in un’app per iPhone e iPad. Fotografi il referto e i valori si scrivono da soli. Nessun account, nessun server: i dati restano sul telefono.">
+<meta property="og:image" content="https://ikim09.github.io/healthtracker-supporto/img/anteprima-it.jpg">
+<meta property="og:url" content="https://ikim09.github.io/healthtracker-supporto/app.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Diario della Salute","operatingSystem":"iOS","applicationCategory":"HealthApplication","description":"Visite, analisi del sangue, farmaci, vaccini e ricette in un’app per iPhone e iPad. Fotografi il referto e i valori si scrivono da soli. Nessun account, nessun server: i dati restano sul telefono.","url":"https://ikim09.github.io/healthtracker-supporto/app.html","downloadUrl":"https://apps.apple.com/app/id6793167337","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}</script>
+<style>
+  :root{--blu:#1e3a8a;--blu2:#2563eb;--testo:#1f2937;--grigio:#4b5563;--sfondo:#f8faff;--carta:#fff;--bordo:#e5e7eb}
+  @media (prefers-color-scheme: dark){:root{--testo:#f3f4f6;--grigio:#cbd5e1;--sfondo:#0b1220;--carta:#111827;--bordo:#1f2937}}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--sfondo);color:var(--testo);line-height:1.6}
+  a{color:inherit}
+  .eroe{background:linear-gradient(135deg,var(--blu),var(--blu2) 60%,#38bdf8);color:#fff;padding:56px 20px 64px;text-align:center}
+  .eroe img.icona{width:104px;height:104px;border-radius:24px;box-shadow:0 12px 32px rgba(0,0,0,.3)}
+  .eroe h1{font-size:clamp(30px,6vw,46px);font-weight:900;letter-spacing:-.5px;margin-top:18px;line-height:1.1}
+  .eroe .motto{font-size:clamp(18px,3.4vw,24px);font-weight:700;margin-top:10px}
+  .eroe .sotto{max-width:620px;margin:14px auto 0;font-size:16px;opacity:.95}
+  .scarica{display:inline-block;margin-top:26px;background:#fff;color:var(--blu);font-weight:800;font-size:17px;text-decoration:none;padding:15px 30px;border-radius:16px;box-shadow:0 10px 28px rgba(0,0,0,.25)}
+  .scarica:focus-visible,.piede a:focus-visible,.lingua:focus-visible{outline:3px solid #fbbf24;outline-offset:3px}
+  .gratis{font-size:13px;opacity:.9;margin-top:12px}
+  .lingua{position:absolute;top:14px;right:16px;color:#fff;font-size:13px;font-weight:700;text-decoration:none;background:rgba(255,255,255,.18);padding:6px 12px;border-radius:999px}
+  header{position:relative}
+  main{max-width:1040px;margin:0 auto;padding:0 20px 40px}
+  .schermi{display:flex;gap:16px;overflow-x:auto;padding:8px 4px 20px;margin-top:-36px;scroll-snap-type:x mandatory;position:relative;z-index:1}
+  .schermi figure{flex:0 0 auto;width:min(62vw,236px);scroll-snap-align:center}
+  .schermi img{width:100%;height:auto;display:block;border-radius:26px;border:6px solid #0b0f19;background:#0b0f19;box-shadow:0 16px 36px rgba(0,0,0,.25)}
+  .schermi figcaption{font-size:12.5px;color:var(--grigio);text-align:center;margin-top:8px}
+  @media (min-width:1040px){.schermi{justify-content:center;overflow:visible}}
+  h2{font-size:24px;font-weight:900;margin:36px 0 16px}
+  .griglia{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+  .carta{background:var(--carta);border:1px solid var(--bordo);border-radius:18px;padding:18px 20px}
+  .carta .em{font-size:26px;line-height:1}
+  .carta h3{font-size:16.5px;font-weight:800;margin:8px 0 4px}
+  .carta p{font-size:14.5px;color:var(--grigio)}
+  .riquadro{background:var(--carta);border:1px solid var(--bordo);border-radius:20px;padding:22px 24px}
+  .riquadro ul{padding-left:20px}
+  .riquadro li,.riquadro p{font-size:15px;color:var(--grigio);margin-bottom:6px}
+  .ancora{text-align:center;margin:40px 0 8px}
+  .ancora .scarica{background:var(--blu2);color:#fff}
+  .avviso{font-size:13px;color:var(--grigio);border-left:4px solid #f59e0b;padding:10px 14px;margin-top:32px;background:var(--carta);border-radius:10px}
+  .piede{text-align:center;font-size:14px;color:var(--grigio);padding:28px 20px 44px}
+  .piede a{margin:0 10px;font-weight:700}
+  .piede p{margin-top:12px;font-size:13px}
+</style>
+</head>
+<body>
+<header class="eroe">
+  <a class="lingua" href="app-en.html" hreflang="en">English</a>
+  <img class="icona" src="img/icona.png" width="104" height="104" alt="">
+  <h1>Diario della Salute</h1>
+  <p class="motto">La tua cartella clinica, solo sul tuo telefono</p>
+  <p class="sotto">Visite, analisi, farmaci, vaccini e ricette in un posto solo. Senza account e senza server: quello che scrivi resta sull’iPhone.</p>
+  <a class="scarica" href="https://apps.apple.com/app/id6793167337">Scarica dall’App Store</a>
+  <p class="gratis">Gratis da scaricare · iPhone e iPad · italiano, inglese, spagnolo, francese, tedesco</p>
+</header>
+<main>
+  <div class="schermi">
+    <figure><img src="img/it-home.jpg" width="480" height="1043" loading="eager" alt="La home: pillole di oggi, prossimi impegni e i numeri che contano"><figcaption>La home: pillole di oggi, prossimi impegni e i numeri che contano</figcaption></figure>
+    <figure><img src="img/it-analisi.jpg" width="480" height="1043" loading="lazy" alt="Le analisi del sangue, con i valori fuori intervallo in evidenza"><figcaption>Le analisi del sangue, con i valori fuori intervallo in evidenza</figcaption></figure>
+    <figure><img src="img/it-vaccini.jpg" width="480" height="1043" loading="lazy" alt="Il libretto dei vaccini, con i richiami"><figcaption>Il libretto dei vaccini, con i richiami</figcaption></figure>
+    <figure><img src="img/it-visita.jpg" width="480" height="1043" loading="lazy" alt="Una visita con le domande da fare al medico"><figcaption>Una visita con le domande da fare al medico</figcaption></figure>
+  </div>
+
+  <h2>Cosa fa</h2>
+  <div class="griglia">
+    <div class="carta"><div class="em" aria-hidden="true">🔎</div><h3>Fotografa il referto</h3><p>Fai una foto o carica il PDF delle analisi: l’app riconosce i valori e li compila per te, mostrandoti cosa ha letto prima di salvare. Il riconoscimento avviene sul telefono.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">📈</div><h3>I tuoi valori nel tempo</h3><p>Per ogni parametro vedi l’ultimo valore, lo storico e un grafico, con gli intervalli di riferimento del tuo laboratorio. Puoi confrontare due analisi.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">👨‍⚕️</div><h3>Visite e domande per il medico</h3><p>Segni le visite fatte e da fare. Prima della visita scrivi le domande: il giorno prima un promemoria ti ricorda quante sono.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">💊</div><h3>Farmaci e promemoria</h3><p>Le terapie con gli orari, le pillole di oggi da spuntare, l’avviso quando la scatola sta per finire.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">💉</div><h3>Vaccini e richiami</h3><p>Ogni vaccino con data, dose e lotto. I richiami scaduti o vicini in cima, e un promemoria una settimana prima.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">💓</div><h3>Peso, pressione e app Salute</h3><p>Segni peso, pressione, glicemia e gli altri dati vitali. Se vuoi, li importi dall’app Salute di Apple: sola lettura, e iOS ti chiede il permesso.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">📔</div><h3>Segui un problema dall’inizio alla fine</h3><p>Apri un percorso — un fastidio, una cura — e ci colleghi visite, analisi, terapie e aggiornamenti su come va.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">📄</div><h3>Il referto da portare al medico</h3><p>Un PDF riepilogativo con analisi, terapie, allergie ed esami, da mostrare o stampare.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">🆘</div><h3>La scheda di emergenza</h3><p>Gruppo sanguigno, allergie gravi, terapie in corso e chi chiamare, in due tocchi.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">💪</div><h3>Allenamenti</h3><p>Segni gli allenamenti con durata, distanza e calorie, e vedi quanto ti sei allenato per ogni attività.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">👨‍👩‍👧</div><h3>Tutta la famiglia</h3><p>Con lo Sblocco Completo tieni profili separati per le persone di cui segui la salute.</p></div>
+    <div class="carta"><div class="em" aria-hidden="true">💾</div><h3>I dati sono tuoi</h3><p>Backup completo in un file che tieni dove vuoi, anche protetto da password. Se cambi telefono te li porti dietro.</p></div>
+  </div>
+
+  <h2>Nessun account, nessun server</h2>
+  <div class="riquadro"><ul>
+    <li>Non c’è registrazione e non c’è accesso.</li>
+    <li>Tutto quello che scrivi resta nella memoria del telefono: non viene inviato da nessuna parte, non lo vediamo noi e non lo vede nessun altro.</li>
+    <li>Puoi chiudere l’app con Face ID e mettere un lucchetto con codice sulle parti più riservate.</li>
+  </ul></div>
+
+  <h2>Gratis, con uno Sblocco Completo facoltativo</h2>
+  <div class="riquadro"><p>L’app si scarica e si usa gratis. Lo Sblocco Completo è un acquisto unico, senza abbonamento, e aggiunge tra le altre cose il referto PDF, le statistiche con i grafici, i profili di famiglia, i promemoria delle terapie e il riepilogo annuale delle spese sanitarie.</p></div>
+
+  <div class="ancora"><a class="scarica" href="https://apps.apple.com/app/id6793167337">Scarica dall’App Store</a></div>
+
+  <p class="avviso">Diario della Salute è uno strumento di archivio personale. Non fornisce diagnosi, consigli medici o terapie, non interpreta i tuoi valori e non sostituisce il parere di un professionista sanitario. Per qualsiasi dubbio sulla tua salute, rivolgiti al tuo medico.</p>
+</main>
+<footer class="piede">
+  <a href="index.html">Assistenza</a><a href="privacy.html">Privacy</a><a href="https://healttracker.featurebase.app">Proponi un miglioramento</a>
+  <p><a href="https://apps.apple.com/app/id6816121925">Dallo stesso sviluppatore: LifeHub, il diario che si scrive parlando</a></p>
+</footer>
+</body>
+</html>
